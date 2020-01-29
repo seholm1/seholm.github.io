@@ -1,0 +1,57 @@
+/*CSS Document*/
+
+html{
+    background-color:whitesmoke;
+    
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 3.5em;
+    font-family: serif;
+    text-align: center;
+    width:7em;
+    margin: 1em auto 0.5em auto;
+    color:white;
+    background-color:darkslateblue;
+    padding:0.2em;
+}
+
+h2{
+    font-size: 3em;
+    margin:0.3em;
+    font-family: serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: darkslateblue;
+    
+}
+h3{
+    font-size: 1.75em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2.5em;
+    color:darkslateblue;
+}
+h4{
+    font-size: 1.2em;
+    margin-top:1em;
+    margin-bottom:0.2em;
+}
+
+p{
+    font-size:1em;
+    margin-top:0.3em;
+    margin-bottom: 0.3em;
+    margin-left:0.8em;
+    color: dimgray;
+}
+
+.price {
+    color:darkslateblue;
+    
+}
+
+ul{
+    list-style-type: none;
+}
