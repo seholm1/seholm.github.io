@@ -1,0 +1,90 @@
+/*CSS DOCUMENT*/
+html{
+    background-color:antiquewhite;
+}
+
+
+img {
+    width: 100%;
+    
+}
+
+h1{
+    font-family:cursive;
+    font-size: 4.5em;
+    margin-bottom:0em;
+    text-align: center;
+    color: darkred;
+}
+
+h2{
+    font-family:sans-serif;
+    font-weight: 100;
+    margin-top: 0.5em;
+    text-align: center;
+    letter-spacing: 1em;
+}
+
+h3{
+    color:darkred;
+}
+
+h6{
+    text-align: center;
+    font-weight: 100;
+    font-style:italic;
+}
+
+ul li{
+    margin-bottom: 1em;
+    list-style:none;
+}
+
+ol li{
+    margin-bottom: 1em;
+}
+
+div.maincontent{
+    font-family: sans-serif;
+    font-weight: 100;
+    margin: auto;
+    width: 70%;
+}
+
+div.intro{
+    font-family: sans-serif;
+    font-style:italic;
+    font-size: 1.5em;
+    font-weight: 100;
+    color:darkred;
+    width:80%;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;  
+}
+
+div.introimage{
+    width:100%;
+    
+}
+
+div.ingredients{
+    float:left;
+    width:30%;
+
+ 
+}
+
+div.directions{
+    float:left;
+    width:70%;
+    padding:0em,2em;
+
+}
+
+footer{
+    clear:both;
+    font-family: sans-serif;
+    
+    
+}
