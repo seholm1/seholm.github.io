@@ -1,0 +1,87 @@
+/*CSS Document*/
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color:#990000;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    font-size: 2.5em;
+    margin:0.3em 0.3em;
+    color:#990000;
+}
+
+h4{
+    margin-bottom: 0.2em;
+    margin-top: 0.3em;
+    font-size: 1.5em;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+footer{
+    font-size:0.75em;
+    text-align: center;
+    background-color:#E0E0E0;
+    padding:0.3em;
+}
+
+.bold{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.75em;
+}
+
+.quote{
+    color:#FFFF;
+    background-image: url(images/cafepatio.jpg);
+    background-position:top center;
+    background-size:cover;
+    padding:6em;
+    margin: 2em 0em 3em 0em;
+}
+
+
+.menu{
+    text-align:center;
+}
+
+.ourmenu{
+    margin:2.75em;
+}
+
+.header h2{
+    font-size: 3em;
+    margin:0.5em;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.menu li {
+    display:inline;
+    font-size: 1em;
+    margin: 0.5em;
+    padding: 0.5em;
+  
+}
+
+.ourmenu li{
+    display:block;
+    font-size: 2em;
+    margin: 0.5em;
+    text-align: left;
+}
+
+.locationandhours{
+    text-align: center;
+    margin-bottom: 4em;
+}
