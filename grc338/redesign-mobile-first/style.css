@@ -113,20 +113,19 @@ footer{
 }
 
 .location {
-    text-align: left;
-    margin:auto;
-    padding: 3em 5em 6em 5em;
+ 
+    text-align: center;
+    padding: 3em;
     border-style:solid;
     border-color:#990000;
-    float:left;
+    display:inline-block;
     
 }
 
 .hours{
-    text-align: left;
-    margin: auto;
+    text-align: center;
     padding: 3em;
     border-style:solid;
     border-color:#990000;
-    float:left;
+    display:inline-block;
 }
