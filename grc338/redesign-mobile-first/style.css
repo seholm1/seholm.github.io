@@ -17,7 +17,7 @@ h2{
 h3{
     font-size: 2.5em;
     margin:0.3em 0.3em;
-    color:#990000;
+    color:aqua;
     text-align:center;
 }
 
@@ -78,8 +78,8 @@ footer{
 .menu li {
     display:inline;
     font-size: 1em;
-    margin: 0.5em;
-    padding: 0.5em;
+    margin: 0.2em;
+    padding: 0.3em;
   
 }
 
