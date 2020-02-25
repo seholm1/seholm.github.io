@@ -9,16 +9,21 @@ a{
     color:#990000;
 }
 
+a:hover{
+    color:#E0E0E0;
+    background:rgba(256, 256, 256, 0);
+}
+
 h2{
     text-align: center;
     font-size:3em;
 }
 
 h3{
-    font-size: 2.5em;
+    font-size: 5em;
     margin:0.3em 0.3em;
     color:#990000;
-    text-align:center;
+    text-align:left;
 }
 
 h4{
@@ -26,6 +31,7 @@ h4{
     margin-top: 0.3em;
     font-size: 1.5em;
 }
+
 
 body{
     font-family: 'Roboto Condensed', sans-serif;
@@ -62,6 +68,7 @@ footer{
 .menu{
     text-align:center;
     font-size: 2em;
+    margin-right: 0.3em;
 }
 
 .ourmenu{
@@ -78,9 +85,7 @@ footer{
 .menu li {
     display:inline;
     font-size: 1.5em;
-    margin: 0.2em;
     padding: 0.3em;
-  
 }
 
 .signature{
@@ -95,7 +100,9 @@ footer{
     margin: 0.5em;
     text-align: left;
 }
-
+.aboutus p{
+    padding:0em 2em;
+}
 .catering{
     background-image: url(images/brunch.jpg);
     background-position:top center;
