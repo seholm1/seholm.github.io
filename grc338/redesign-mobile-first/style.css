@@ -71,8 +71,24 @@ footer{
     margin-right: 0.3em;
 }
 
-.ourmenu{
+.ourmenu ul{
     margin:2.75em;
+}
+
+.ourmenu li{
+    border: solid 2px;
+    background-color: #000;
+    padding:0.3em;
+    text-align: center;
+}
+
+.listitems li{
+    list-style: none;
+
+    
+}
+.listitems p{
+    margin:0em 1em;
 }
 
 .header h2{
