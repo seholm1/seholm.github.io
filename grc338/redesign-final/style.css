@@ -1,0 +1,177 @@
+/*CSS Document*/
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color:#990000;
+}
+
+a:hover{
+    color:#85A49D;
+    background:rgba(256, 256, 256, 0);
+}
+
+h2{
+    text-align: center;
+    font-size:3em;
+}
+
+h3{
+    font-size: 5em;
+    margin:0.3em 0.3em;
+    color:#990000;
+    text-align:center;
+}
+
+h4{
+    margin-bottom: 0.2em;
+    margin-top: 0.3em;
+    font-size: 3em;
+}
+
+p{
+    font-size:2em;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+footer{
+    font-size:1em;
+    text-align: center;
+    padding:0.3em;
+    clear:both;
+    border-top: solid 2px;
+    border-color: #E0E0E0;
+}
+
+.bold{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.75em;
+}
+
+.quote{
+    color:#FFFF;
+    background-image: url(images/cafepatio.jpg);
+    background-position:top center;
+    background-size:cover;
+    padding:6em;
+    margin: 2em 0em 1em 0em;
+}
+
+.quote h2{
+    margin-top:0.2em;
+    margin-bottom: 0.2em;
+}
+
+
+.menu{
+    text-align:center;
+    font-size: 2em;
+    margin-right: 0.3em;
+    border-bottom: solid 2px;
+    border-color: #E0E0E0;
+}
+
+
+.ourmenu ul{
+    margin:1em;
+    font-size:2em;
+    width:70%;
+    margin:auto;
+}
+
+.listitems li{
+    list-style: none;  
+}
+.listitems p{
+    margin:0em 1em;
+}
+
+.listitems{
+    max-width:40em;
+    margin: auto;
+}
+
+@media only screen and (min-width:40em){
+        .listitems{
+            width:45%;
+            float:left;
+            margin-right:1em;
+    }
+}
+
+.header h2{
+    font-size: 3em;
+    margin:0.5em;
+    font-family: 'Dancing Script', cursive;
+    border-bottom: solid 2px;
+    border-color: #E0E0E0;
+    padding-bottom: 0.5em;
+}
+
+
+.menu li {
+    display:inline;
+    font-size: 1.5em;
+    padding: 0.3em;
+}
+
+.signature{
+    font-family: 'Dancing Script', cursive;
+    text-align:center;
+    font-size:2em;
+}
+
+.ourmenu li{
+    display:block;
+    font-size: 2em;
+    margin: 0.3em;
+    text-align: center;
+    background-color: #E0E0E0;
+    padding:0.4em;
+}
+.aboutus p{
+    padding:0em 2em;
+    max-width: 25em;
+    margin:auto;
+}
+
+.catering{
+    background-image: url(images/brunch.jpg);
+    background-position:top center;
+    background-size:cover;
+    padding:6em;
+    margin: 2em 0em 1em 0em;
+    
+}
+
+.catering h2{
+    color:#ffff;
+    margin-bottom:0.2em;
+    margin-top:0.2em;
+    margin-bottom: 0.2em;
+}
+
+.location,.hours {
+    text-align: center;
+    padding: 1em;
+    margin:2em;
+    width:100%;
+    
+}
+
+.request h3{
+    text-align: center;
+    color:#990000;
+    margin:0.5em;
+    border: solid;
+    padding:0.3em;
+}
+
+
