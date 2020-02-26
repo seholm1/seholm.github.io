@@ -26,12 +26,10 @@ h3{
     text-align:center;
 }
 
-
-
 h4{
     margin-bottom: 0.2em;
     margin-top: 0.3em;
-    font-size: 1.5em;
+    font-size: 3em;
 }
 
 p{
@@ -61,7 +59,7 @@ footer{
     background-position:top center;
     background-size:cover;
     padding:6em;
-    margin: 2em 0em 3em 0em;
+    margin: 2em 0em 1em 0em;
 }
 
 .quote h2{
@@ -138,9 +136,9 @@ footer{
 
 .location,.hours {
     text-align: center;
-    padding: 2em;
+    padding: 1em;
     float:left;
-    margin:3em;
+    margin:2em;
     
 }
 
