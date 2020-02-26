@@ -23,7 +23,7 @@ h3{
     font-size: 5em;
     margin:0.3em 0.3em;
     color:#990000;
-    text-align:left;
+    text-align:center;
 }
 
 
@@ -69,7 +69,7 @@ footer{
 
 .menu{
     text-align:center;
-    font-size: 3em;
+    font-size: 2em;
     margin-right: 0.3em;
 }
 
@@ -139,6 +139,14 @@ footer{
     float:left;
     margin:3em;
     
+}
+
+.request h3{
+    text-align: center;
+    color:#990000;
+    margin:0.5em;
+    border: solid;
+    padding:0.3em;
 }
 
 
