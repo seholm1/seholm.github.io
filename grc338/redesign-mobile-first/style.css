@@ -7,11 +7,10 @@ img{
 a{
     text-decoration: none;
     color:#990000;
-    text-align: center;
 }
 
 a:hover{
-    color:#E0E0E0;
+    color:#85A49D;
     background:rgba(256, 256, 256, 0);
 }
 
@@ -76,7 +75,8 @@ footer{
 
 
 .ourmenu ul{
-    margin:2.75em;
+    margin:1em;
+    font-size:2em;
 }
 
 .listitems li{
@@ -111,7 +111,7 @@ footer{
     font-size: 2em;
     margin: 0.3em;
     text-align: center;
-    background-color: #8E8E8E;
+    background-color: #E0E0E0;
     padding:0.4em;
 }
 .aboutus p{
