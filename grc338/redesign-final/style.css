@@ -5,11 +5,11 @@ img{
 
 a{
     text-decoration: none;
-    color:#000;
+    color:#909090;
 }
 
 a:hover{
-    color:#85A49D;
+    color:#990000;
     background:rgba(256, 256, 256, 0);
 }
 
@@ -81,7 +81,7 @@ footer{
 
 .menu{
     text-align:center;
-    font-size: 1em;
+    font-size: 1.5em;
     margin: auto;
     border-bottom: solid 2px;
     border-color: #E0E0E0;
@@ -145,8 +145,8 @@ footer{
     font-size: 2em;
     margin: 0.3em;
     text-align: center;
-    background-color: #E0E0E0;
-    padding:0.4em;
+    border: solid 4px #990000;
+    padding:0.2em;
 }
 .aboutus p{
     padding:0em 2em;
@@ -179,7 +179,7 @@ footer{
     
 }
 
-.request h3{
+.request h4{
     text-align: center;
     color:#990000;
     margin:0.5em;
