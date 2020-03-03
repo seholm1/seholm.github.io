@@ -5,7 +5,7 @@ img{
 
 a{
     text-decoration: none;
-    color:#990000;
+    color:#000;
 }
 
 a:hover{
@@ -15,7 +15,8 @@ a:hover{
 
 h2{
     text-align: center;
-    font-size:3em;
+    font-size:6em;
+    margin-bottom:0.2em;
 }
 
 h3{
@@ -35,6 +36,13 @@ p{
     font-size:2em;
 }
 
+.header{
+    text-align: right;
+    width: 30%;
+    margin:auto;
+    margin-bottom:0em;
+}
+
 body{
     font-family: 'Roboto Condensed', sans-serif;
 
@@ -47,6 +55,7 @@ footer{
     clear:both;
     border-top: solid 2px;
     border-color: #E0E0E0;
+    width:100%;
 }
 
 .bold{
@@ -61,6 +70,7 @@ footer{
     background-size:cover;
     padding:6em;
     margin: 2em 0em 1em 0em;
+    clear: both;
 }
 
 .quote h2{
@@ -71,10 +81,11 @@ footer{
 
 .menu{
     text-align:center;
-    font-size: 2em;
-    margin-right: 0.3em;
+    font-size: 1em;
+    margin: auto;
     border-bottom: solid 2px;
     border-color: #E0E0E0;
+    width:100%;
 }
 
 
@@ -83,6 +94,8 @@ footer{
     font-size:2em;
     width:70%;
     margin:auto;
+    clear: both;
+    
 }
 
 .listitems li{
@@ -118,7 +131,7 @@ footer{
 .menu li {
     display:inline;
     font-size: 1.5em;
-    padding: 0.3em;
+    padding: 1em;
 }
 
 .signature{
@@ -139,6 +152,7 @@ footer{
     padding:0em 2em;
     max-width: 25em;
     margin:auto;
+    clear:both;
 }
 
 .catering{
@@ -147,7 +161,7 @@ footer{
     background-size:cover;
     padding:6em;
     margin: 2em 0em 1em 0em;
-    
+    clear: both;
 }
 
 .catering h2{
@@ -160,7 +174,7 @@ footer{
 .location,.hours {
     text-align: center;
     padding: 1em;
-    margin:2em;
+    margin:auto;
     width:100%;
     
 }
