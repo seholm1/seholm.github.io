@@ -87,8 +87,10 @@ footer{
     list-style: none;
   
 }
-.listitems p{
-    margin:0em 1em;
+
+
+.listitems h3{
+    text-align:left;
 }
 
 .header h2{
@@ -141,10 +143,18 @@ footer{
 }
 
 .location,.hours {
-    text-align: center;
+    text-align: left;
     padding: 1em;
-    margin:2em;
+    margin:auto;
+    width:45%;
+    float:left;
+
     
+}
+
+.location h3,.hours h3{
+ text-align: left;
+margin:0em
 }
 
 .request h3{
