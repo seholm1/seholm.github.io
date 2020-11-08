@@ -1,0 +1,546 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-size: calc(7pt + 1vw);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+    color: #4d4d4f;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    color: #4d4d4f;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+}
+
+h1 img {
+    margin: -0.5em 2em 0 2em;
+    width: 1.5em;
+}
+
+h2{
+    font-size: 2rem;
+}
+h3{
+    color: #1F8A70;
+}
+
+h4{
+    color: #004358;
+}
+
+.large{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+    color: #dd802e;
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    background-color: #efefef;
+    gap: 4em;
+}
+
+img{
+    width: 100%;
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul {
+    display: flex;
+    font-size: 1em;
+    padding: 0.2em;
+    height: 100%;
+}
+
+nav>ul>li {
+    min-width: 12ch;
+    flex: 1;
+    position: relative;
+    height: 50%;
+
+}
+
+nav li ul {
+    display: none;
+    position: relative;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #004358;
+
+}
+
+nav li ul a {
+    color: #efefef;
+    font-size: 1em;
+    line-height: 1.3em;
+    padding: 0.5em;
+}
+
+
+nav li ul a:hover {
+    background-color: #1F8A70;;
+    transition: 0.3s ease-in all;
+}
+
+nav a {
+    display: inline-block;
+    height: 100%;
+    line-height: 50px;
+    padding: 0 0.5em;
+    transition: 0.5s;
+    position: relative;
+}
+
+/*Start code for hover box effect*/
+nav a span {
+    display: block;
+    position: absolute;
+    background: #004358;
+}
+
+
+nav a span:nth-child(1) {
+    left: 0;
+    bottom: 0;
+    width: 2px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+
+nav a:hover span:nth-child(1) {
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+
+nav a span:nth-child(2) {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    transform: scaleY(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+    transition-delay: 0.50s;
+}
+
+nav a:hover span:nth-child(2) {
+    transform: scaleY(1);
+    transform-origin: left;
+    transition: transform 0.5s;
+    transition-delay: 0.50s;
+}
+
+nav a span:nth-child(3) {
+    right: 0;
+    bottom: 0;
+    width: 2px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+
+nav a:hover span:nth-child(3) {
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+
+nav a span:nth-child(4) {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 2px;
+    transform: scaleY(0);
+    transform-origin: right;
+    transition: transform 0.25s;
+
+}
+
+nav a:hover span:nth-child(4) {
+    transform: scaleY(1);
+    transform-origin: left;
+    transition: transform 0.5s;
+    transition-delay: 0.25s;
+}
+
+/*End code for hover effect*/
+
+nav li:hover ul {
+    display: block;
+    color: #4d4d4f;
+}
+
+.toggle {
+    display: none;
+}
+/* Main code start */
+.center{
+    margin: 0 auto;
+    max-width: 80%;
+    
+}
+.row-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:1em;
+}
+.row-grid .block{
+    border: 2px solid #4d4d4f;
+    padding: 1em;
+}
+
+.row-grid .block a{
+    background-color: #1F8A70;
+    color: #efefef;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+/* Get Started */
+.row-grid-gs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1em;
+}
+.row-grid-gs .block{
+background-color: #1F8A70;
+padding: 1em;
+}
+
+.row-grid-gs .block a{
+clear: both;
+}
+
+.row-grid-gs .block h4{
+    margin: 0;
+    color: #efefef;
+    }
+
+.row-grid-gs .block p{
+        margin: 0;
+        color: #efefef;
+        font-size: 0.75em;
+        }
+/* End Get Started */
+
+/* Home */
+
+#learn-more{
+    background-color: #1F8A70;
+    color: #efefef;
+    border: 2px solid #1F8A70;
+}
+
+#learn-more a{
+    background-color: #efefef;
+    color: #1F8A70;
+}
+
+#learn-more img{
+    margin-top: 2em;
+}
+
+br{
+    clear: both;
+}
+
+.regions {
+    display: grid;
+    margin-right: 1em;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1em;
+}
+
+.regions h3{
+    clear: both;
+}
+
+.regions a{
+    color: #004358;
+}
+
+.regions img{
+    width: 150px;
+    float: left;
+    margin: 0 0.75em 0 0;
+}
+
+/* End Home */
+
+/* Start Table */
+
+table{
+    width: 100%;
+    font-size: 0.7em;;
+    table-layout: fixed;
+}
+th{
+    background-color: #004358;
+    color: #efefef;
+    padding: 0.2em 0.5em;
+    text-align: left;
+}
+table img{
+    padding: 1em;
+}
+
+td{
+    padding: 0.2em 0.5em;
+}
+
+
+/* End Table */
+/* Start accordion code */
+
+.accordion-item{
+    background-color: #1F8A70 ;
+    border-radius: .4rem;
+    margin-bottom: 1rem;
+}
+
+
+.accordion-link{
+    font-size: 1rem;
+    color: #efefef;
+    text-decoration: none;
+    background-color: #1F8A70;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.accordion-link i{
+    color: #efefef;
+    padding: 0.5rem;
+}
+
+.accordion-link .ion-md-remove{
+    display:none;
+}
+
+.answer{
+    max-height: 0;
+    overflow: auto;
+    position:relative;
+    background-color: #efefef;
+    transition:max-height 650ms;
+
+}
+
+
+.accordion-item:target .answer{
+    max-height: 200rem;
+}
+
+.accordion-item:target .accordion-link .ion-md-add{
+    display:none;
+}
+.accordion-item:target .accordion-link .ion-md-remove{
+    display:block;}
+
+/* End Main Code */
+
+/* Footer */
+footer{
+    background-color: #004358;
+    color: #efefef;
+    font-size: 1em;
+    height: 30vh;
+}
+
+footer p{
+    text-align:center;
+}
+
+footer h1, footer a{
+    text-align: center;
+    line-height: 20vh;
+}
+
+
+/*Mobile code start*/
+@media (max-width:900px) {
+    /* Nav */
+    header {
+        min-height: 4.5em;
+        max-width: 100%;
+    }
+    nav {
+        margin-top: -1800px;
+        padding-left: 1em;
+    }
+
+    .show-menu nav {
+        margin-top: 0;
+    }
+
+    header,
+    nav>ul {
+        display: block;
+        font-size: 1.5em;
+    }
+
+    nav li ul {
+        display: block;
+        position: relative;
+        margin-left: 1em;
+        background-color: #efefef;
+        border-left: #004358 2px solid;
+    }
+
+    nav li ul a {
+        color: #004358;
+        padding: 0.25em;
+    }
+
+    nav li ul a:hover {
+        border-left: #1F8A70 15px solid;
+        transition: 0.2s ease-in all;
+        background-color: #efefef;
+    }
+
+    .toggle {
+        display: block;
+        position: absolute;
+        top: 0.5em;
+        right: 0.5em;
+    }
+
+    .toggle span {
+        display: block;
+        width: 50px;
+        height: 8px;
+        margin: 5px;
+        background: #efefef;
+        z-index: 1;
+        transform-origin: 0%;
+    }
+    /* Main */
+    .row-grid, .row-grid-gs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .block a{
+        text-align: center;
+        width: 100%;
+    }
+
+    .row-grid-gs .block a{
+        text-align: left;
+    }
+
+    .row-grid img {
+        max-height: 0px;
+    }
+
+
+    .row-grid-gs img{
+        object-fit: cover;
+        height: 100px;
+    }
+
+    #learn-more{
+        text-align: center;
+    }
+
+    .regions{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+    /* Start table on Hikes page - original code by Chris Coyier*/
+
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+    }
+    
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+        left: -9999px;
+	}
+	
+	tr { 
+        margin: 1em 0;
+        padding: 2em;
+     }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		position: relative;
+        padding-left: 40%; 
+        font-size: 1.5em;
+    }
+
+    td img{
+        width: 70%;
+    }
+    
+    
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+    }
+
+    tr:nth-child(odd){
+        background-color: #dadadb;
+    }
+
+    tr:nth-child(even){
+        border: solid 5px #dadadb;
+    }
+
+    /*
+	Label the data
+	*/
+	td:nth-of-type(1):before { content: "Trail"; }
+	td:nth-of-type(2):before { content: "Distance"; }
+	td:nth-of-type(3):before { content: "Elavation Gain"; }
+    td:nth-of-type(4):before { content: "Crowd Factor"; }
+    td:nth-of-type(5):before { content: "Scenery Factor"; }
+    td:nth-of-type(6):before { content: "Difficulty"; }
+
+    td:nth-of-type(1):before, td:nth-of-type(2):before, td:nth-of-type(3):before, td:nth-of-type(4):before, td:nth-of-type(5):before,td:nth-of-type(6):before{
+        font-weight: 900;
+    }
+
+}
